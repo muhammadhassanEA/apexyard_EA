@@ -73,14 +73,13 @@ team:
     role: "frontend-engineer"
     department: "engineering"
 
-  # Uncomment and add more team members as needed:
-   - name: "PM"
-     role: "product-manager"
-     department: "product"
-  #
-   - name: "Designer"
-     role: "ux-designer"
-     department: "design"
+  - name: "PM"
+    role: "product-manager"
+    department: "product"
+
+  - name: "Designer"
+    role: "ux-designer"
+    department: "design"
 
 # -----------------------------------------------------------------------------
 # Tech Stack
