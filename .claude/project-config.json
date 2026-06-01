@@ -1,0 +1,9 @@
+{
+  "portfolio": {
+    "registry": "../apexyard_EA-portfolio/apexyard.projects.yaml",
+    "projects_dir": "../apexyard_EA-portfolio/projects",
+    "ideas_backlog": "../apexyard_EA-portfolio/projects/ideas-backlog.md",
+    "onboarding": "../apexyard_EA-portfolio/onboarding.yaml",
+    "workspace_dir": "../apexyard_EA-portfolio/workspace"
+  }
+}

@@ -4,7 +4,16 @@
 
 # ApexYard per-project config written by /onboard. Contains deploy URLs and
 # sensitive-topic notes that should not leak to git — keep it local.
-.claude/project-config.json
+# NOTE: in split-portfolio mode this file IS committed (it holds the portfolio: block).
+# Unignored below via !.claude/project-config.json if needed — but for split-portfolio
+# we remove this line so the file can be staged.
+# .claude/project-config.json
+
+# Split-portfolio v2: registry, per-project docs, company config, and workspaces
+# all live in the private sibling repo (apexyard_EA-portfolio). Never commit them here.
+apexyard.projects.yaml
+projects/
+onboarding.yaml
 
 # Claude Code per-machine settings (permission overrides, local tool config)
 .claude/settings.local.json
